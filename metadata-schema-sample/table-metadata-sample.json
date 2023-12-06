@@ -1,0 +1,19 @@
+{
+	"MetadataType": "Table",
+	"SourceSystemId": "ABC",
+	"TableName": "ABC",
+	"TableDescription": "ABC",
+	"DataClassification": "ABC",
+	"Load Strategy": "ABC",
+	"SourceDataInterfaceDetails": [{
+		"DataFrequency": 5,
+		"DataFileFormat": "ABC",
+		"DataLandingPath": "ABC"
+	}],
+	"Table Schema": [{
+		"ColumnName": "ABC",
+		"ColumnDataType": "ABC",
+		"Nullable": "ABC",
+		"DataClassification": "ABC"
+	}]
+}

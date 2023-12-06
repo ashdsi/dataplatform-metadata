@@ -1,0 +1,22 @@
+{
+	"MetadataType": "System",
+	"OrganisationEntity": "Unicorn",
+	"SourceSystemId": "Unicorn123",
+	"SourceSystemName": "UnicornABC",
+	"SourceSystemDescription": "Unicorn Data",
+	"SourceSystemOwner": [{
+		"FullName": "JohnDoe",
+		"Email": "johndoe@unicorn.com"
+	}],
+	"SourceSystemSME": [{
+		"FullName": "JoeDoe",
+		"Email": "joedoe@unicorn.com"
+	}],
+	"SourceSystemSupportEmail": "suport@unicorn.com",
+	"SourceDataInterfacesDetails": [{
+		"DataFrequencyDays": 14,
+		"DataFileFormat": "avro"
+	}],
+	"DataClassification": "Confidential",
+	"DataRetentionPeriodDays": 45
+}

@@ -1,0 +1,75 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "MetadataType": {
+      "type": "string"
+    },
+    "OrganisationEntity": {
+      "type": "string"
+    },
+    "SourceSystemId": {
+      "type": "string"
+    },
+    "SourceSystemName": {
+      "type": "string"
+    },
+    "SourceSystemDescription": {
+      "type": "string"
+    },
+    "SourceSystemOwner": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "FullName": {
+            "type": "string"
+          },
+          "Email": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "SourceSystemSME": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "FullName": {
+            "type": "string"
+          },
+          "Email": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "SourceSystemSupportEmail": {
+      "type": "string"
+    },
+    "SourceDataInterfacesDetails": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "DataFrequencyDays": {
+            "type": "number"
+          },
+          "DataFileFormat": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "DataClassification": {
+      "type": "string"
+    },
+    "DataRetentionPeriodDays": {
+      "type": "number"
+    }
+  }
+}

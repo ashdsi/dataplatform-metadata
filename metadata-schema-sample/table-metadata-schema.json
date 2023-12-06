@@ -1,0 +1,63 @@
+{
+	"type": "object",
+	"required": [],
+	"properties": {
+	  "MetadataType": {
+		"type": "string"
+	  },
+	  "SourceSystemId": {
+		"type": "string"
+	  },
+	  "TableName": {
+		"type": "string"
+	  },
+	  "TableDescription": {
+		"type": "string"
+	  },
+	  "DataClassification": {
+		"type": "string"
+	  },
+	  "Load Strategy": {
+		"type": "string"
+	  },
+	  "SourceDataInterfaceDetails": {
+		"type": "array",
+		"items": {
+		  "type": "object",
+		  "required": [],
+		  "properties": {
+			"DataFrequency": {
+			  "type": "number"
+			},
+			"DataFileFormat": {
+			  "type": "string"
+			},
+			"DataLandingPath": {
+			  "type": "string"
+			}
+		  }
+		}
+	  },
+	  "Table Schema": {
+		"type": "array",
+		"items": {
+		  "type": "object",
+		  "required": [],
+		  "properties": {
+			"ColumnName": {
+			  "type": "string"
+			},
+			"ColumnDataType": {
+			  "type": "string"
+			},
+			"Nullable": {
+			  "type": "string"
+			},
+			"DataClassification": {
+			  "type": "string"
+			}
+		  }
+		}
+	  }
+	}
+  }
