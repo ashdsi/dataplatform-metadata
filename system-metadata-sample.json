@@ -18,5 +18,5 @@
 		"DataFileFormat": "avro"
 	}],
 	"DataClassification": "Confidential",
-	"DataRetentionPeriodDays": 45
+	"DataRetentionPeriodDays": 60
 }
