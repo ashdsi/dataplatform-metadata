@@ -6,7 +6,7 @@
 	"DataClassification": "ABC",
 	"Load Strategy": "ABC",
 	"SourceDataInterfaceDetails": [{
-		"DataFrequency": 10,
+		"DataFrequency": 5,
 		"DataFileFormat": "ABC",
 		"DataLandingPath": "ABC"
 	}],
