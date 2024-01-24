@@ -1,0 +1,16 @@
+{
+	"MetadataType": "System",
+    "SourceSystemId": "SAPC4C_my330761",
+	"OrganisationEntity": "LION",
+	"SourceSystemName": "my330761",
+	"SourceSystemDescription": "SAP C4C DEV",
+	"SourceSystemOwner": [{
+		"FullName": "JohnDoe",
+		"Email": "johndoe@lionco.com"
+	}],
+	"SourceSystemSME": [{
+		"FullName": "JoeDoe",
+		"Email": "joedoe@lionco.com"
+	}],
+	"SourceSystemSupportEmail": "suport@lionco.com"
+}
