@@ -1,9 +1,9 @@
 {
     "MetadataType": "Table",
     "SourceSystemId": "SAPC4C_my330761",
-    "dataChunkSize": "5000",
+    "dataChunkSize": 5000,
     "dataExtractionMode": "FullMode",
-    "deltaFrequency": "daily",
+    "deltaFrequency": 1,
     "sapCredentials": "/dev/sapc4c/my330761/creds",
     "sapEndpoint": "/sap/c4c/odata/analytics/ds/Codtkahb.svc/",
     "sapHostName": "https://my330761.crm.ondemand.com",
